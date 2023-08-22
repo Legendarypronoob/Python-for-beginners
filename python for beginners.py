@@ -275,3 +275,16 @@ print(rpc)
 print(cards)
 
 # exception handling
+
+# detect a file
+
+# read a file
+
+# write a file
+
+# copy a file
+
+# move a file
+
+# delete a file
+
