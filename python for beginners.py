@@ -205,6 +205,7 @@ my_name(middle="Mahdi", last="Hossain", first="Md.")
 # nested functions call
 
 # variable scope
+# local global bl enclosed
 
 # # args
 def multiplication(*args):
