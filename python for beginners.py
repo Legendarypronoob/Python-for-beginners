@@ -1,6 +1,7 @@
 import math
 import time
 import random
+import os
 
 # # output and data type
 print('single quotation')
@@ -275,16 +276,57 @@ print(rpc)
 print(cards)
 
 # exception handling
+try :
+    numerator = int(input("Enter a dividend: "))
+    denominator = int(input("Enter a divisor: "))
+    result = numerator/denominator
+
+except ZeroDivisionError as e:
+    print(e)
+    print("you can not divide by 0")
+except ValueError as e:
+    print(e)
+    print("you have to divide by a number.")
+except Exception as e:
+    print(e)
+    print("something went wrong.")
+else:
+    print(result)
+
 
 # detect a file
 
+path = "E:\\Git\\Python-for-beginners\\demo_file_detection.txt"
+if os.path.exists(path):
+    print("file exists")
+else:
+    print("file doesn't exist.")
+
+
 # read a file
+try:
+    with open ("demo_file_detection.txt") as file:
+        print(file.read())
+        print(file.closed)
+    print(file.closed)
+except FileNotFoundError as e:
+    print(e)
+    print("file not found")
+
 
 # write a file
+
+new_text="good morning, darling!\n did you sleep well?\n want some coffee?"
+try :
+    with open("demo_file_detection.txt","w") as file:
+        file.write(new_text)
+except FileNotFoundError as e:
+    print(e)
+    print("file doesn't exist.")
+
 
 # copy a file
 
 # move a file
 
 # delete a file
-
