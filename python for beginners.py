@@ -385,7 +385,7 @@ def play_again():
         play_again()
     else:
         print("You won:", user_won, "times\nComputer won:", computer_won,
-              "times\nGames played:",games_played,
+              "times\nGames played:", games_played,
               "times\nHopefully you had fun playing the game. Tata!")
 
 
