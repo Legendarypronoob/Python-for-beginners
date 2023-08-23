@@ -389,4 +389,58 @@ def play_again():
 
 play_again()
 
+# more concise rock paper scissor game by perplexity.ai
+'''OPTIONS = ["rock", "paper", "scissor"]
+
+def get_user_choice():
+    user_choice = None
+    while user_choice not in OPTIONS:
+        user_choice = str(input("Your choice: ")).lower()
+    return user_choice
+
+def get_computer_choice():
+    return random.choice(OPTIONS)
+
+def play_round(user_won, computer_won):
+    user_choice = get_user_choice()
+    computer_choice = get_computer_choice()
+    print("Computer chose:", computer_choice)
+
+    if user_choice == computer_choice:
+        print("It's a draw.")
+    elif OPTIONS.index(user_choice) == (OPTIONS.index(computer_choice) + 1) % 3:
+        print("You win!")
+        user_won += 1
+    else:
+        print("You lost. Haha!")
+        computer_won += 1
+
+    return user_won, computer_won
+
+def play_game():
+    user_won = 0
+    computer_won = 0
+    print("Your computer wants to play a rock paper scissor game with you.\nMake your move!!!!")
+
+    for i in range(10):
+        user_won, computer_won = play_round(user_won, computer_won)
+
+    print("You won:", user_won, "times\n",
+          "Computer won:", computer_won, "times",
+          "\nHopefully you had fun playing the game. Tata!")
+
+def play_again():
+    choice = None
+    while choice not in ["yes", "no"]:
+        choice = str(input("Hey, do you want to play the game again? (yes/no)")).lower()
+
+    if choice == "yes":
+        play_game()
+        play_again()
+    else:
+        print("Thanks for playing!")
+
+play_game()
+play_again()'''
+
 # quiz game
