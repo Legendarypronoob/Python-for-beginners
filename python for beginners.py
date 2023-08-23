@@ -335,3 +335,13 @@ shutil.copyfile("demo_file_detection.txt","copy.txt")
 # move a file
 
 # delete a file
+demo_path = "copy.txt"
+os.remove(demo_path) # delete a file
+#os.remdir(demo_path) # delete a file or empty folder
+#shutil.rmtree(demo_path) # delete files or folders
+
+# modules
+
+# rock paper scissor game
+
+# quiz game
