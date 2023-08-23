@@ -2,6 +2,8 @@ import math
 import time
 import random
 import os
+import shutil
+
 
 # # output and data type
 print('single quotation')
@@ -326,6 +328,9 @@ except FileNotFoundError as e:
 
 
 # copy a file
+shutil.copyfile("demo_file_detection.txt","copy.txt")
+#shutil.copy()
+#shutil.copy2()
 
 # move a file
 
