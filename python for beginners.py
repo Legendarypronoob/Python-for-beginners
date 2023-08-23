@@ -333,7 +333,7 @@ shutil.copyfile("demo_file_detection.txt", "copy.txt")
 # delete a file
 demo_path = "copy.txt"
 os.remove(demo_path)  # delete a file
-# os.remdir(demo_path) # delete a file or empty folder
+# os.rmdir(demo_path) # delete a file or empty folder
 # shutil.rmtree(demo_path) # delete files or folders
 
 # modules
@@ -367,7 +367,6 @@ def rps():
         computer_won += 1
 
     games_played += 1
-    return user_won, computer_won, games_played
 
 
 rps()
