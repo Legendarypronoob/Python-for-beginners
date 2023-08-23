@@ -343,10 +343,11 @@ help("modules")
 
 user_won = 0
 computer_won = 0
+games_played = 0
 
 
 def rps():
-    global user_won, computer_won
+    global user_won, computer_won, games_played
     kid_game = ["rock", "paper", "scissor"]
     computer = random.choice(kid_game)
     print("Your computer wants to play a rock paper scissor game with you.\nMake your move!!!!")
@@ -366,7 +367,8 @@ def rps():
         print("You lost. Haha!")
         computer_won += 1
 
-    return user_won, computer_won
+    games_played += 1
+    return user_won, computer_won, games_played
 
 
 rps()
@@ -382,9 +384,9 @@ def play_again():
         rps()
         play_again()
     else:
-        print("You won:", user_won, "times\n",
-              "Computer won:", computer_won, "times",
-              "\nHopefully you had fun playing the game. Tata!")
+        print("You won:", user_won, "times\nComputer won:", computer_won,
+              "times\nGames played:",games_played,
+              "times\nHopefully you had fun playing the game. Tata!")
 
 
 play_again()
