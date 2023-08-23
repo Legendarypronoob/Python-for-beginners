@@ -353,7 +353,6 @@ def rps():
     print("Your computer wants to play a rock paper scissor game with you.\nMake your move!!!!")
 
     user = None
-
     while user not in kid_game:
         user = str(input("Your choice: ")).lower()
     print("Computer chose:", computer)
