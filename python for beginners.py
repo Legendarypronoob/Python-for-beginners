@@ -4,7 +4,6 @@ import random
 import os
 import shutil
 
-
 # # output and data type
 print('single quotation')
 print("double quotation")
@@ -84,7 +83,7 @@ elif temperature_scale == "fahrenheit":
 name = ""
 # name = None
 while name == "" or len(name) < 5:
-    name = str(input("What's your name?"))
+    name = str(input("What's your name?")).capitalize()
 
 # import time
 for i in range(3, 0, -1):
@@ -119,6 +118,7 @@ print()
 gaming = ["valorant", "pubg", "chess", "cod"]
 print(gaming)
 gaming.append("coc")
+print(gaming.pop(0))
 print(gaming)
 # list_variable_name. //library
 
@@ -278,10 +278,10 @@ print(rpc)
 print(cards)
 
 # exception handling
-try :
+try:
     numerator = int(input("Enter a dividend: "))
     denominator = int(input("Enter a divisor: "))
-    result = numerator/denominator
+    result = numerator / denominator
 
 except ZeroDivisionError as e:
     print(e)
@@ -295,7 +295,6 @@ except Exception as e:
 else:
     print(result)
 
-
 # detect a file
 
 path = "E:\\Git\\Python-for-beginners\\demo_file_detection.txt"
@@ -304,10 +303,9 @@ if os.path.exists(path):
 else:
     print("file doesn't exist.")
 
-
 # read a file
 try:
-    with open ("demo_file_detection.txt") as file:
+    with open("demo_file_detection.txt") as file:
         print(file.read())
         print(file.closed)
     print(file.closed)
@@ -315,33 +313,80 @@ except FileNotFoundError as e:
     print(e)
     print("file not found")
 
-
 # write a file
 
-new_text="good morning, darling!\n did you sleep well?\n want some coffee?"
-try :
-    with open("demo_file_detection.txt","w") as file:
+new_text = "good morning, darling!\n did you sleep well?\n want some coffee?"
+try:
+    with open("demo_file_detection.txt", "w") as file:
         file.write(new_text)
 except FileNotFoundError as e:
     print(e)
     print("file doesn't exist.")
 
-
 # copy a file
-shutil.copyfile("demo_file_detection.txt","copy.txt")
-#shutil.copy()
-#shutil.copy2()
+shutil.copyfile("demo_file_detection.txt", "copy.txt")
+# shutil.copy()
+# shutil.copy2()
 
 # move a file
 
 # delete a file
 demo_path = "copy.txt"
-os.remove(demo_path) # delete a file
-#os.remdir(demo_path) # delete a file or empty folder
-#shutil.rmtree(demo_path) # delete files or folders
+os.remove(demo_path)  # delete a file
+# os.remdir(demo_path) # delete a file or empty folder
+# shutil.rmtree(demo_path) # delete files or folders
 
 # modules
+help("modules")
 
 # rock paper scissor game
+
+user_won = 0
+computer_won = 0
+
+
+def rps():
+    global user_won, computer_won
+    kid_game = ["rock", "paper", "scissor"]
+    computer = random.choice(kid_game)
+    print("Your computer wants to play a rock paper scissor game with you.\nMake your move!!!!")
+
+    user = None
+
+    while user not in kid_game:
+        user = str(input("Your choice: ")).lower()
+    print("Computer chose:", computer)
+
+    if user == computer:
+        print("it's a draw.")
+    elif kid_game.index(user) == (kid_game.index(computer) + 1) % 3:
+        print("You win!")
+        user_won += 1
+    else:
+        print("You lost. Haha!")
+        computer_won += 1
+
+    return user_won, computer_won
+
+
+rps()
+choice = ["yes", "no"]
+
+
+def play_again():
+    print("Hey", name, "do you want to play the game again?(yes/no)")
+    my_choice = ""
+    while my_choice not in choice:
+        my_choice = str(input("Your choice: ")).lower()
+    if my_choice == "yes":
+        rps()
+        play_again()
+    else:
+        print("You won:", user_won, "times\n",
+              "Computer won:", computer_won, "times",
+              "\nHopefully you had fun playing the game. Tata!")
+
+
+play_again()
 
 # quiz game
