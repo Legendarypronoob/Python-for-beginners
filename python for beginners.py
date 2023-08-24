@@ -530,3 +530,47 @@ print("computer age:", Computer.computer_age, "years")
 Computer.computer_age = 6
 print("computer age:", Computer.computer_age, "years")
 
+
+# inheritance
+class Government:
+    country = "Bangladesh"
+    name = "Republic of Bangladesh"
+    system = "flawed democracy"
+
+    def __init__(self):
+        print("governments are for the people, by the people, of the people. But the people are retarded.")
+
+    def law(self):
+        print("everyone must follow!")
+
+    def people(self):
+        print("government works for the people")
+
+
+class PrimeMinister(Government):
+    name = "Sheikh Hasina"
+
+    def __init__(self):
+        print(
+            "the prime minister is appointed by the President based upon the result \nof the electorates choice in parliamentary general election held by the Election Commission.")
+
+
+class President(Government):
+    name = "Mohammed Shahabuddin"
+
+    def __init__(self):
+        print(
+            " President is elected by an indirect election by \nthe members of parliament as per Article 48 of the Constitution.")
+
+
+class MembersOfParliament(Government):
+    def __init__(self):
+        print("300 Members are elected by direct polls in their respective constituencies Whoever wins the most votes.")
+
+
+print(Government.name)
+print(PrimeMinister.name)
+
+bd = Government()
+
+
