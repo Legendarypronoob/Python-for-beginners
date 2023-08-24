@@ -567,10 +567,16 @@ class MembersOfParliament(Government):
     def __init__(self):
         print("300 Members are elected by direct polls in their respective constituencies Whoever wins the most votes.")
 
+    def location(self):
+        print("parliament")
+
 
 print(Government.name)
 print(PrimeMinister.name)
 
-bd = Government()
+bd = MembersOfParliament()
+bd.location()
+bd.law()
 
+# multilevel inheritance
 
