@@ -599,14 +599,51 @@ class Fingers(Hand):
 
 # multiple inheritance
 
-class BlackPieces():
+class BlackPieces:
     pass
 
 
-class WhitePieces():
+class WhitePieces:
     pass
 
 
 class Chess(BlackPieces, WhitePieces):
     pass
 
+
+# method overriding
+
+# method chaining
+
+class Morning:
+
+    def wake(self):
+        print("wake up")
+        return self
+
+    def fresh_up(self):
+        print("fresh up")
+        return self
+
+    def eat(self):
+        print("have breakfast")
+        return self
+
+    def greet(self):
+        print("kiss wife")
+        return self
+
+    def work(self):
+        print("go to work")
+        return self
+
+
+morning = Morning()
+(morning.wake(). \
+ fresh_up(). \
+ eat(). \
+ greet().work())
+
+# super function
+
+# abstract classes
