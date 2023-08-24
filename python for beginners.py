@@ -578,5 +578,20 @@ bd = MembersOfParliament()
 bd.location()
 bd.law()
 
+
 # multilevel inheritance
 
+class Human:
+    pass
+
+
+class Body(Human):
+    pass
+
+
+class Hand(Body):
+    pass
+
+
+class Fingers(Hand):
+    pass
