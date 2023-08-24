@@ -551,6 +551,7 @@ class PrimeMinister(Government):
     name = "Sheikh Hasina"
 
     def __init__(self):
+        super().__init__()
         print(
             "the prime minister is appointed by the President based upon the result \nof the electorates choice in parliamentary general election held by the Election Commission.")
 
@@ -559,12 +560,14 @@ class President(Government):
     name = "Mohammed Shahabuddin"
 
     def __init__(self):
+        super().__init__()
         print(
             " President is elected by an indirect election by \nthe members of parliament as per Article 48 of the Constitution.")
 
 
 class MembersOfParliament(Government):
     def __init__(self):
+        super().__init__()
         print("300 Members are elected by direct polls in their respective constituencies Whoever wins the most votes.")
 
     def location(self):
@@ -574,6 +577,7 @@ class MembersOfParliament(Government):
 print(Government.name)
 print(PrimeMinister.name)
 
+bd2 = Government()
 bd = MembersOfParliament()
 bd.location()
 bd.law()
@@ -644,6 +648,9 @@ morning = Morning()
  eat(). \
  greet().work())
 
-# super function
+# super function check government class
 
 # abstract classes
+
+# objects as arguments
+
