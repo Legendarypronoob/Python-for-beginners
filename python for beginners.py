@@ -595,3 +595,18 @@ class Hand(Body):
 
 class Fingers(Hand):
     pass
+
+
+# multiple inheritance
+
+class BlackPieces():
+    pass
+
+
+class WhitePieces():
+    pass
+
+
+class Chess(BlackPieces, WhitePieces):
+    pass
+
