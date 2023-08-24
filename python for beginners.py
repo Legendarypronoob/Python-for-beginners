@@ -499,9 +499,10 @@ print(f"Your score is: {score}%")
 # object-oriented programming oop
 
 class Computer:
+    computer_age = 2  # class variable
 
     def __init__(self, monitor, graphics, processor, ram, pc_user):
-        self.monitor = monitor
+        self.monitor = monitor  # instance variable
         self.graphics = graphics
         self.processor = processor
         self.ram = ram
@@ -523,3 +524,9 @@ computer = Computer("phillips", 'AMD Vega 11 pro', "Ryzen 5 3400G", "8 gb", "Mah
 computer.play_game()
 computer.editing()
 computer.configuration()
+print("computer age:", computer.computer_age, "years")
+computer.computer_age = 5
+print("computer age:", Computer.computer_age, "years")
+Computer.computer_age = 6
+print("computer age:", Computer.computer_age, "years")
+
