@@ -494,3 +494,32 @@ print()
 
 score = int(score / len(questions) * 100)
 print(f"Your score is: {score}%")
+
+
+# object-oriented programming oop
+
+class Computer:
+
+    def __init__(self, monitor, graphics, processor, ram, pc_user):
+        self.monitor = monitor
+        self.graphics = graphics
+        self.processor = processor
+        self.ram = ram
+        self.pc_user = pc_user
+
+    def play_game(self):
+        print("you are playing game on", self.pc_user, "'s computer")
+
+    def editing(self):
+        print("you are editing on", self.pc_user, "'s computer")
+
+    def configuration(self):
+        print("the pc's configuration is:", self.monitor, self.graphics, self.processor, self.ram)
+
+    # from computer(file name) import Computer
+
+
+computer = Computer("phillips", 'AMD Vega 11 pro', "Ryzen 5 3400G", "8 gb", "Mahdi")
+computer.play_game()
+computer.editing()
+computer.configuration()
