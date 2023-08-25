@@ -654,4 +654,43 @@ morning = Morning()
 
 # objects as arguments
 
+# duck typing
+
+# walrus operator
+
+# functions to variables
+
+# higher order functions
+
+# lamda
+
+# sort
+
+# map
+
+# filter
+
+# reduce()
+
+# list comprehension
+
+# dictionary comprehension
+
+# zip function
+
+# if __name__=main
+
+# time module
+
+# thread
+
+# demon thread
+
+# multiprocessing
+
+
+
+
+
+
 
