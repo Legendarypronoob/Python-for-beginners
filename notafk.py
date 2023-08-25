@@ -3,6 +3,8 @@ import pyautogui as pag
 import random
 import time
 
+# for valorant
+
 while True:
     x = random.randint(0, 1366)
     y = random.randint(0, 768)
