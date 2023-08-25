@@ -5,7 +5,7 @@ import time
 
 while True:
     x = random.randint(0, 1366)
-    y = random.randint(0, 766)
+    y = random.randint(0, 768)
     pyautogui.click(x, y, 2)
     pyautogui.hotkey('enter')
     pyautogui.typewrite("i am afk i will be back soon")
