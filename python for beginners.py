@@ -642,11 +642,13 @@ class Morning:
         return self
 
 
-morning = Morning()
-(morning.wake(). \
- fresh_up(). \
- eat(). \
- greet().work())
+def methodchaining():
+    morning = Morning()
+    (morning.wake(). \
+     fresh_up(). \
+     eat(). \
+     greet().work())
+
 
 # super function check government class
 
@@ -688,9 +690,5 @@ morning = Morning()
 
 # multiprocessing
 
-
-
-
-
-
-
+if __name__ == "__main__":
+    methodchaining()
