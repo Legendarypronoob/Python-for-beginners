@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../AutoValo/.idea/AutoValo.iml" filepath="$PROJECT_DIR$/../AutoValo/.idea/AutoValo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Python-for-beginners.iml" filepath="$PROJECT_DIR$/.idea/Python-for-beginners.iml" />
     </modules>
   </component>
