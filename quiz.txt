@@ -1,0 +1,21 @@
+What is the super function?
+ans: super functions are used to give access to methods of a parent class. Returns a temporary object of the parent class when used.
+
+What is abstract classes?
+ans: #abstract class = a class which contains one or more abstract methods.
+#abstract method = a method that has a declaration but does not have an implementation.
+
+# prevents a user from creating an object of that class
+# + compels a user to override abstract methods in a child class
+kind of like interface implementation in java. opposite of super function when you think about it.
+
+What is passing objects as arguments?
+ans : to organize multiple things in a specific category we pass arguments as objects to the class and reuse the objects return types of that class.
+
+What is duck typing?
+ans : # duck typing = concept where the class of an object is less important than the methods/attributes
+#class type is not checked if minimum methods/attributes are present
+#“If it walks like a duck, and it quacks like a duck, then it must be a duck.”
+
+What is the Walrus operator :- ?
+ans :
