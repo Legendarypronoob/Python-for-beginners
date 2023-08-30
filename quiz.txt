@@ -18,4 +18,52 @@ ans : # duck typing = concept where the class of an object is less important tha
 #“If it walks like a duck, and it quacks like a duck, then it must be a duck.”
 
 What is the Walrus operator :- ?
+ans : # assignment expression aka walrus operator
+# assigns values to variables as part of a larger expression
+
+Can you assign in-built functions to a variable in python?
+ans : yes.Though it's not really demanding.
+
+What is a higher order function?
+ans : #  Higher Order Function =  a function that either:
+#                           1. accepts a function as an argument
+#                               or
+#                           2. returns a function
+#                           (In python, functions are also treated as objects)
+
+What is lamda in python?
 ans :
+# lambda function = function written in 1 line using lambda keyword
+#                   accepts any number of arguments, but only has one expression.
+#                   (think of it as a shortcut)
+#                   (useful if needed for a short period of time, throw-away)
+#
+# lambda parameters:expression
+
+What can you do with sort() method in python?
+ans : # sort() method   = used with lists
+# sort() function = used with iterables
+
+What is a map function?
+ans : # map() =   applies a function to each item in an iterable (list, tuple, etc.)
+#
+# map(function,iterable)
+
+What is the filter function in python?
+ans : # map() =   applies a function to each item in an iterable (list, tuple, etc.)
+#
+# map(function,iterable)
+
+What is reduce() in python?
+ans : # reduce() = apply a function to an iterable and reduce it to a single cumulative value.
+#            performs function on first two elements and repeats process until 1 value remains
+#
+# reduce(function, iterable)
+
+What is list comprehension?
+ans : list comprehension =  a way to create a new list with less syntax
+#                       can mimic certain lambda functions, easier to read
+#                       list = [expression for item in iterable]
+#                       list = [expression for item in iterable if conditional]
+#                       list = [expression if/else for item in iterable]
+
