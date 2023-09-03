@@ -1,3 +1,23 @@
+Why do we need to use python?
+ans : It is a general purpose programming language.It is used to build websites and software, automate tasks,
+and conduct data analysis.The syntax in Python when compared to C++ or Java, allows programmers to do coding in fewer steps.
+Bigger organizations use it widely because of its multiple programming paradigms.
+Python has automatic memory management and dynamic features with a comprehensive and large standard library.
+
+
+How do we use python?
+ans : python mainly supports 4 programming paradigms:
+imperative programming paradigm:
+procedural programming paradigm:
+Advantages : General-purpose programming, Code re-usability, Portable source code.
+Disadvantages : Data protection, Not suitable for real-world objects, Harder to write,
+functional programming paradigm:
+Advantages : Simple to understand, Making debugging and testing easier, Enhances the comprehension and readability of the code.
+Disadvantages : Low performance, Writing programs is a daunting task, Low readability of the code.
+object oriented-programming paradigm:
+Advantages : Relation with Real world entities,Code re-usability,Abstraction or data hiding.
+Disadvantages : Data protection, Not suitable for all types of problems, Slow Speed
+
 Why do we need to use a dictionary?
 ans : changeable, unordered, collection of unique key: value pairs that are fast to use because they use hashing.
 
