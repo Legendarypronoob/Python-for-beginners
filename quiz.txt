@@ -61,9 +61,9 @@ ans : # reduce() = apply a function to an iterable and reduce it to a single cum
 # reduce(function, iterable)
 
 What is list comprehension?
-ans : list comprehension =  a way to create a new list with less syntax
-#                       can mimic certain lambda functions, easier to read
-#                       list = [expression for item in iterable]
-#                       list = [expression for item in iterable if conditional]
-#                       list = [expression if/else for item in iterable]
+ans : List comprehension offers a shorter syntax when you want to create a new list based on the values of an existing list.
+a way to create a new list with less syntax can mimic certain lambda functions, easier to read.
+List comprehensions are often faster than loops because they use a more optimized internal mechanism for iterating over the collection.
+Additionally, list comprehensions allow you to perform transformations and filtering in a single statement, which can lead to more efficient code.
+
 
