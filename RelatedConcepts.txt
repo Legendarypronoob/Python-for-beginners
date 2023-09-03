@@ -1,0 +1,28 @@
+1.  What and how many paradigms are there in python? Give Advantages and disadvantages.
+    ans : Programming paradigms are different ways or styles in which a given program or programming language can be organized.
+          Each paradigm consists of certain structures, features, and opinions about how common programming problems should be tackled.
+                python mainly supports 4 programming paradigms:
+                    imperative programming paradigm:
+                    procedural programming paradigm:
+                        Advantages : General-purpose programming, Code re-usability, Portable source code.
+                        Disadvantages : Data protection, Not suitable for real-world objects, Harder to write,
+                    functional programming paradigm:
+                        Advantages : Simple to understand, Making debugging and testing easier, Enhances the comprehension and readability of the code.
+                        Disadvantages : Low performance, Writing programs is a daunting task, Low readability of the code.
+                    object oriented-programming paradigm:
+                        Advantages : Relation with Real world entities,Code re-usability,Abstraction or data hiding.
+                        Disadvantages : Data protection, Not suitable for all types of problems, Slow Speed
+
+2.  What is the difference between a module, library, package and framework?
+    ans : a module is a piece of code that may be built upon, a package is a collection of modules,
+          a library is a collection of pre-written code, and a framework is a set of principles for developing applications.
+
+3.  What is the difference between mutable and immutable?
+    ans : Mutable objects are those that allow you to change their value or data in place without affecting the object's identity.
+          In contrast, immutable objects don't allow this kind of operation.
+          You'll just have the option of creating new objects of the same type with different values.
+
+4.  is python a case-sensitive language?
+    ans : yes.
+
+5.
