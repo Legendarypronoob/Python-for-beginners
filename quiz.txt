@@ -1,152 +1,169 @@
-Why do we need to use python?
-ans : It is a general purpose programming language.It is used to build websites and software, automate tasks,
-and conduct data analysis.The syntax in Python when compared to C++ or Java, allows programmers to do coding in fewer steps.
-Bigger organizations use it widely because of its multiple programming paradigms.
-Python has automatic memory management and dynamic features with a comprehensive and large standard library.
+1.  Why do we need to use python?
+    ans : It is a general purpose programming language.It is used to build websites and software, automate tasks,
+    and conduct data analysis.The syntax in Python when compared to C++ or Java, allows programmers to do coding in fewer steps.
+    Bigger organizations use it widely because of its multiple programming paradigms.
+    Python has automatic memory management and dynamic features with a comprehensive and large standard library.
 
-python mainly supports 4 programming paradigms:
-imperative programming paradigm:
-procedural programming paradigm:
-Advantages : General-purpose programming, Code re-usability, Portable source code.
-Disadvantages : Data protection, Not suitable for real-world objects, Harder to write,
-functional programming paradigm:
-Advantages : Simple to understand, Making debugging and testing easier, Enhances the comprehension and readability of the code.
-Disadvantages : Low performance, Writing programs is a daunting task, Low readability of the code.
-object oriented-programming paradigm:
-Advantages : Relation with Real world entities,Code re-usability,Abstraction or data hiding.
-Disadvantages : Data protection, Not suitable for all types of problems, Slow Speed
+    python mainly supports 4 programming paradigms:
+    imperative programming paradigm:
+    procedural programming paradigm:
+    Advantages : General-purpose programming, Code re-usability, Portable source code.
+    Disadvantages : Data protection, Not suitable for real-world objects, Harder to write,
+    functional programming paradigm:
+    Advantages : Simple to understand, Making debugging and testing easier, Enhances the comprehension and readability of the code.
+    Disadvantages : Low performance, Writing programs is a daunting task, Low readability of the code.
+    object oriented-programming paradigm:
+    Advantages : Relation with Real world entities,Code re-usability,Abstraction or data hiding.
+    Disadvantages : Data protection, Not suitable for all types of problems, Slow Speed
 
-Why do we need to use a dictionary?
-ans : changeable, unordered, collection of unique key: value pairs that are fast to use because they use hashing.
+2.  Why do we need to use variables in python?
+    ans : Used to store a value which can be reused. The variable acts as the value itself.
 
-What is the super function?
-ans: super functions are used to give access to methods of a parent class. Returns a temporary object of the parent class when used.
+3.  Why do we need to use data types in python?
+    ans : to define the type of variable. string, boolean, int, float.
 
-What is abstract classes?
-ans: #abstract class = a class which contains one or more abstract methods.
-#abstract method = a method that has a declaration but does not have an implementation.
+4.  Why do we need to use typecasting in python?
+    ans : To change the data type to what's required for the code.
 
-# prevents a user from creating an object of that class
-# + compels a user to override abstract methods in a child class
-kind of like interface implementation in java. opposite of super function when you think about it.
+5.  Why do we need to use user input in python?
+    ans : to get something from user.
 
-What is passing objects as arguments?
-ans : to organize multiple things in a specific category we pass arguments as objects to the class and reuse the objects return types of that class.
+6.  Why do we need to use math module in python?
+    ans : to perform complex mathematical operations such as trigonometric, logarithmic, and exponential functions.
 
-What is duck typing?
-ans : # duck typing = concept where the class of an object is less important than the methods/attributes
-#class type is not checked if minimum methods/attributes are present
-#“If it walks like a duck, and it quacks like a duck, then it must be a duck.”
+7.  Why do we need to use
 
-What is the Walrus operator :- ?
-ans : # assignment expression aka walrus operator
-# assigns values to variables as part of a larger expression
+    Why do we need to use dictionary in python?
+    ans : changeable, unordered, collection of unique key: value pairs that are fast to use because they use hashing.
 
-Can you assign in-built functions to a variable in python?
-ans : yes.Though it's not really demanding.
+    What is the super function?
+    ans: super functions are used to give access to methods of a parent class. Returns a temporary object of the parent class when used.
 
-What is a higher order function?
-ans : #  Higher Order Function =  a function that either:
-#                           1. accepts a function as an argument
-#                               or
-#                           2. returns a function
-#                           (In python, functions are also treated as objects)
+    What is abstract classes?
+    ans: #abstract class = a class which contains one or more abstract methods.
+    #abstract method = a method that has a declaration but does not have an implementation.
 
-What is lamda in python?
-ans :
-# lambda function = function written in 1 line using lambda keyword
-#                   accepts any number of arguments, but only has one expression.
-#                   (think of it as a shortcut)
-#                   (useful if needed for a short period of time, throw-away)
-#
-# lambda parameters:expression
+    # prevents a user from creating an object of that class
+    # + compels a user to override abstract methods in a child class
+    kind of like interface implementation in java. opposite of super function when you think about it.
 
-What can you do with sort() method in python?
-ans : # sort() method   = used with lists
-# sort() function = used with iterables
+    What is passing objects as arguments?
+    ans : to organize multiple things in a specific category we pass arguments as objects to the class and reuse the objects return types of that class.
 
-What is a map function?
-ans : # map() =   applies a function to each item in an iterable (list, tuple, etc.)
-#
-# map(function,iterable)
+    What is duck typing?
+    ans : # duck typing = concept where the class of an object is less important than the methods/attributes
+    #class type is not checked if minimum methods/attributes are present
+    #“If it walks like a duck, and it quacks like a duck, then it must be a duck.”
 
-What is the filter function in python?
-ans : # map() =   applies a function to each item in an iterable (list, tuple, etc.)
-#
-# map(function,iterable)
+    What is the Walrus operator :- ?
+    ans : # assignment expression aka walrus operator
+    # assigns values to variables as part of a larger expression
 
-Why do we need to use reduce() in python?
-ans : # reduce() = apply a function to an iterable and reduce it to a single cumulative value.
-#            performs function on first two elements and repeats process until 1 value remains
-#
-# reduce(function, iterable)
+    Can you assign in-built functions to a variable in python?
+    ans : yes.Though it's not really demanding.
 
-Why do we need to use list comprehension in python?
-ans : List comprehension offers a shorter syntax when you want to create a new list based on the values of an existing list.
-a way to create a new list with less syntax can mimic certain lambda functions, easier to read.
-List comprehensions are often faster than loops because they use a more optimized internal mechanism for iterating over the collection.
-Additionally, list comprehensions allow you to perform transformations and filtering in a single statement, which can lead to more efficient code.
+    What is a higher order function?
+    ans : #  Higher Order Function =  a function that either:
+    #                           1. accepts a function as an argument
+    #                               or
+    #                           2. returns a function
+    #                           (In python, functions are also treated as objects)
 
-Why do we need to use a dictionary comprehension in python?
-ans : create dictionaries using an expression
-can replace for loops and certain lambda functions
-Dictionary comprehension is a method for transforming one dictionary into another dictionary. During this transformation,
-items within the original dictionary can be conditionally included in the new dictionary, and each item can be transformed as needed.
-# dictionary = {key: expression for (key,value) in iterable}
-# dictionary = {key: expression for (key,value) in iterable if conditional}
-# dictionary = {key: (if/else) for (key,value) in iterable}
-# dictionary = {key: function(value) for (key,value) in iterable}
+    What is lamda in python?
+    ans :
+    # lambda function = function written in 1 line using lambda keyword
+    #                   accepts any number of arguments, but only has one expression.
+    #                   (think of it as a shortcut)
+    #                   (useful if needed for a short period of time, throw-away)
+    #
+    # lambda parameters:expression
 
-Why do we need to use a zip function in python?
-ans : # zip(*iterables) =  aggregate elements from two or more iterables (list, tuples, sets, etc.)
-# creates a zip object with paired elements stored in tuples for each element
-The zip() function in Python is used to combine two or more iterable dictionaries into a single iterable,
-where corresponding elements from the input iterable are paired together as tuples.
+    What can you do with sort() method in python?
+    ans : # sort() method   = used with lists
+    # sort() function = used with iterables
 
-Why do we need to use if __name__ = '__main__': in python?
-ans :It Allows You to Execute Code When the File Runs as a Script, but Not When It's Imported as a Module.
-For most practical purposes, you can think of the conditional block that you open with if __name__ == "__main__"
-as a way to store code that should only run when your file is executed as a script.
-# 1. Module can be run as a standalone program
-#    or
-# 2. Module can be imported and used by other modules
+    What is a map function?
+    ans : # map() =   applies a function to each item in an iterable (list, tuple, etc.)
+    #
+    # map(function,iterable)
 
-#  Python interpreter sets "special variables", one of which is _name_
-#  Python will assign the _name_ variable a value of '__main__' if it's
-#  the initial module being run
+    What is the filter function in python?
+    ans : # map() =   applies a function to each item in an iterable (list, tuple, etc.)
+    #
+    # map(function,iterable)
 
-Why do we need to use time modules in python?
-ans : Python time module allows to work with time in Python. It allows functionality like getting the current time, pausing the Program from executing, etc.
-So before starting with this module we need to import it.
+    Why do we need to use reduce() in python?
+    ans : # reduce() = apply a function to an iterable and reduce it to a single cumulative value.
+    #            performs function on first two elements and repeats process until 1 value remains
+    #
+    # reduce(function, iterable)
 
-why do we need to use multi threading in python?
-ans :Python multithreading enables efficient utilization of the resources as the threads share the data space and memory.
-Multithreading in Python allows the concurrent and parallel occurrence of various tasks. It causes a reduction in time consumption or response time,
-thereby increasing the performance.
-# thread =  a flow of execution. Like a separate order of instructions.
-#                  However each thread takes a turn running to achieve concurrency
-#                  GIL = (global interpreter lock),
-#                  allows only one thread to hold the control of the Python interpreter at any one time
+    Why do we need to use list comprehension in python?
+    ans : List comprehension offers a shorter syntax when you want to create a new list based on the values of an existing list.
+    a way to create a new list with less syntax can mimic certain lambda functions, easier to read.
+    List comprehensions are often faster than loops because they use a more optimized internal mechanism for iterating over the collection.
+    Additionally, list comprehensions allow you to perform transformations and filtering in a single statement, which can lead to more efficient code.
 
-# cpu bound = program/task spends most of it's time waiting for internal events (CPU intensive)
-#             use multiprocessing
+    Why do we need to use a dictionary comprehension in python?
+    ans : create dictionaries using an expression
+    can replace for loops and certain lambda functions
+    Dictionary comprehension is a method for transforming one dictionary into another dictionary. During this transformation,
+    items within the original dictionary can be conditionally included in the new dictionary, and each item can be transformed as needed.
+    # dictionary = {key: expression for (key,value) in iterable}
+    # dictionary = {key: expression for (key,value) in iterable if conditional}
+    # dictionary = {key: (if/else) for (key,value) in iterable}
+    # dictionary = {key: function(value) for (key,value) in iterable}
 
-# io bound = program/task spends most of it's time waiting for external events (user input, web scraping)
-#            use multithreading
+    Why do we need to use a zip function in python?
+    ans : # zip(*iterables) =  aggregate elements from two or more iterables (list, tuples, sets, etc.)
+    # creates a zip object with paired elements stored in tuples for each element
+    The zip() function in Python is used to combine two or more iterable dictionaries into a single iterable,
+    where corresponding elements from the input iterable are paired together as tuples.
 
-Why do we need to use daemon threads in python?
-ans :A daemon thread is a background thread. A daemon thread is useful for executing tasks that are not critical.
-The program can exit and doesn't need to wait for the daemon threads to be completed.
-A daemon thread is automatically killed when the program exits.
-a thread that runs in the background, not important for program to run
-your program will not wait for daemon threads to complete before exiting
-non-daemon threads cannot normally be killed, stay alive until task is complete
-ex. background tasks, garbage collection, waiting for input, long-running processes
+    Why do we need to use if __name__ = '__main__': in python?
+    ans :It Allows You to Execute Code When the File Runs as a Script, but Not When It's Imported as a Module.
+    For most practical purposes, you can think of the conditional block that you open with if __name__ == "__main__"
+    as a way to store code that should only run when your file is executed as a script.
+    # 1. Module can be run as a standalone program
+    #    or
+    # 2. Module can be imported and used by other modules
 
-Why do we need to use multiprocessing in python?
-ans :The multiprocessing package offers both local and remote concurrency,
-effectively side-stepping the Global Interpreter Lock by using subprocesses instead of threads.
-Due to this, the multiprocessing module allows the programmer to fully leverage multiple processors on a given machine.
-multiprocessing = running tasks in parallel on different cpu cores, bypasses GIL used for threading
-multiprocessing = better for cpu bound tasks (heavy cpu usage)
-multithreading = better for io bound tasks (waiting around)
+    #  Python interpreter sets "special variables", one of which is _name_
+    #  Python will assign the _name_ variable a value of '__main__' if it's
+    #  the initial module being run
+
+    Why do we need to use time modules in python?
+    ans : Python time module allows to work with time in Python. It allows functionality like getting the current time, pausing the Program from executing, etc.
+    So before starting with this module we need to import it.
+
+    why do we need to use multi threading in python?
+    ans :Python multithreading enables efficient utilization of the resources as the threads share the data space and memory.
+    Multithreading in Python allows the concurrent and parallel occurrence of various tasks. It causes a reduction in time consumption or response time,
+    thereby increasing the performance.
+    # thread =  a flow of execution. Like a separate order of instructions.
+    #                  However each thread takes a turn running to achieve concurrency
+    #                  GIL = (global interpreter lock),
+    #                  allows only one thread to hold the control of the Python interpreter at any one time
+
+    # cpu bound = program/task spends most of it's time waiting for internal events (CPU intensive)
+    #             use multiprocessing
+
+    # io bound = program/task spends most of it's time waiting for external events (user input, web scraping)
+    #            use multithreading
+
+    Why do we need to use daemon threads in python?
+    ans :A daemon thread is a background thread. A daemon thread is useful for executing tasks that are not critical.
+    The program can exit and doesn't need to wait for the daemon threads to be completed.
+    A daemon thread is automatically killed when the program exits.
+    a thread that runs in the background, not important for program to run
+    your program will not wait for daemon threads to complete before exiting
+    non-daemon threads cannot normally be killed, stay alive until task is complete
+    ex. background tasks, garbage collection, waiting for input, long-running processes
+
+    Why do we need to use multiprocessing in python?
+    ans :The multiprocessing package offers both local and remote concurrency,
+    effectively side-stepping the Global Interpreter Lock by using subprocesses instead of threads.
+    Due to this, the multiprocessing module allows the programmer to fully leverage multiple processors on a given machine.
+    multiprocessing = running tasks in parallel on different cpu cores, bypasses GIL used for threading
+    multiprocessing = better for cpu bound tasks (heavy cpu usage)
+    multithreading = better for io bound tasks (waiting around)
