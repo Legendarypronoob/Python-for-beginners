@@ -1,3 +1,6 @@
+Why do we need to use a dictionary?
+ans : changeable, unordered, collection of unique key: value pairs that are fast to use because they use hashing.
+
 What is the super function?
 ans: super functions are used to give access to methods of a parent class. Returns a temporary object of the parent class when used.
 
@@ -54,16 +57,78 @@ ans : # map() =   applies a function to each item in an iterable (list, tuple, e
 #
 # map(function,iterable)
 
-What is reduce() in python?
+Why do we need to use reduce() in python?
 ans : # reduce() = apply a function to an iterable and reduce it to a single cumulative value.
 #            performs function on first two elements and repeats process until 1 value remains
 #
 # reduce(function, iterable)
 
-What is list comprehension?
+Why do we need to use list comprehension in python?
 ans : List comprehension offers a shorter syntax when you want to create a new list based on the values of an existing list.
 a way to create a new list with less syntax can mimic certain lambda functions, easier to read.
 List comprehensions are often faster than loops because they use a more optimized internal mechanism for iterating over the collection.
 Additionally, list comprehensions allow you to perform transformations and filtering in a single statement, which can lead to more efficient code.
 
+Why do we need to use a dictionary comprehension in python?
+ans : create dictionaries using an expression
+can replace for loops and certain lambda functions
+Dictionary comprehension is a method for transforming one dictionary into another dictionary. During this transformation,
+items within the original dictionary can be conditionally included in the new dictionary, and each item can be transformed as needed.
+# dictionary = {key: expression for (key,value) in iterable}
+# dictionary = {key: expression for (key,value) in iterable if conditional}
+# dictionary = {key: (if/else) for (key,value) in iterable}
+# dictionary = {key: function(value) for (key,value) in iterable}
 
+Why do we need to use a zip function in python?
+ans : # zip(*iterables) =  aggregate elements from two or more iterables (list, tuples, sets, etc.)
+# creates a zip object with paired elements stored in tuples for each element
+The zip() function in Python is used to combine two or more iterable dictionaries into a single iterable,
+where corresponding elements from the input iterable are paired together as tuples.
+
+Why do we need to use if __name__ = '__main__': in python?
+ans :It Allows You to Execute Code When the File Runs as a Script, but Not When It's Imported as a Module.
+For most practical purposes, you can think of the conditional block that you open with if __name__ == "__main__"
+as a way to store code that should only run when your file is executed as a script.
+# 1. Module can be run as a standalone program
+#    or
+# 2. Module can be imported and used by other modules
+
+#  Python interpreter sets "special variables", one of which is _name_
+#  Python will assign the _name_ variable a value of '__main__' if it's
+#  the initial module being run
+
+Why do we need to use time modules in python?
+ans : Python time module allows to work with time in Python. It allows functionality like getting the current time, pausing the Program from executing, etc.
+So before starting with this module we need to import it.
+
+why do we need to use multi threading in python?
+ans :Python multithreading enables efficient utilization of the resources as the threads share the data space and memory.
+Multithreading in Python allows the concurrent and parallel occurrence of various tasks. It causes a reduction in time consumption or response time,
+thereby increasing the performance.
+# thread =  a flow of execution. Like a separate order of instructions.
+#                  However each thread takes a turn running to achieve concurrency
+#                  GIL = (global interpreter lock),
+#                  allows only one thread to hold the control of the Python interpreter at any one time
+
+# cpu bound = program/task spends most of it's time waiting for internal events (CPU intensive)
+#             use multiprocessing
+
+# io bound = program/task spends most of it's time waiting for external events (user input, web scraping)
+#            use multithreading
+
+Why do we need to use daemon threads in python?
+ans :A daemon thread is a background thread. A daemon thread is useful for executing tasks that are not critical.
+The program can exit and doesn't need to wait for the daemon threads to be completed.
+A daemon thread is automatically killed when the program exits.
+a thread that runs in the background, not important for program to run
+your program will not wait for daemon threads to complete before exiting
+non-daemon threads cannot normally be killed, stay alive until task is complete
+ex. background tasks, garbage collection, waiting for input, long-running processes
+
+Why do we need to use multiprocessing in python?
+ans :The multiprocessing package offers both local and remote concurrency,
+effectively side-stepping the Global Interpreter Lock by using subprocesses instead of threads.
+Due to this, the multiprocessing module allows the programmer to fully leverage multiple processors on a given machine.
+multiprocessing = running tasks in parallel on different cpu cores, bypasses GIL used for threading
+multiprocessing = better for cpu bound tasks (heavy cpu usage)
+multithreading = better for io bound tasks (waiting around)
