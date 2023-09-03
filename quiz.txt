@@ -4,9 +4,7 @@ and conduct data analysis.The syntax in Python when compared to C++ or Java, all
 Bigger organizations use it widely because of its multiple programming paradigms.
 Python has automatic memory management and dynamic features with a comprehensive and large standard library.
 
-
-How do we use python?
-ans : python mainly supports 4 programming paradigms:
+python mainly supports 4 programming paradigms:
 imperative programming paradigm:
 procedural programming paradigm:
 Advantages : General-purpose programming, Code re-usability, Portable source code.
