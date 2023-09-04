@@ -28,4 +28,4 @@
 5.  What are arguments?
     ans : The terms parameter and argument can be used for the same thing. Information that are passed into a function.
 
-# The end
+# The end.
