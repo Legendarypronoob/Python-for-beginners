@@ -1,63 +1,40 @@
-1.  Why do we need to use python?
-    ans : it is a general purpose programming language.It is used to build websites and software, automate tasks,
+#   Why python?
+    ans :   it is a general purpose programming language.It is used to build websites and software, automate tasks,
             and conduct data analysis.The syntax in Python when compared to C++ or Java, allows programmers to do coding in fewer steps.
             Bigger organizations use it widely because of its multiple programming paradigms.
             Python has automatic memory management and dynamic features with a comprehensive and large standard library.
 
-2.  Why do we need to use variables in python?
-    ans : used to store a value which can be reused. The variable acts as the value itself.
+#   variables, typecasting, userinput, format specifiers
 
-3.  Why do we need to use data types in python?
-    ans : to define the type of variable. string, boolean, int, float.
-
-4.  Why do we need to use typecasting in python?
-    ans : to change the data type.
-
-5.  Why do we need to use user input in python?
-    ans : userinput.
-
-6.  Why do we need to use math module in python?
-    ans : to perform complex mathematical operations.
-
-7.  Why do we need to use conditional statements in python?
-    ans : to control where the program leads to. if, else, elif.
-
-8.  Why do we need to use logical operators in python?
-    ans : to perform logical operations on the values of variables. and, or, not.
-            and = checks two or more conditions are True
-            or = checks if at least one condition is True
-            not = True if condition is False, and vice versa
-
-9. Why do we need to use String slicing in python?
-    ans : to extract modified substring.
-
-10. Why do we need to use string methods in python?
-    ans : since strings are immutable, we manipulate and store it in a new variable using string methods.
-
-11. Why do we need to use string indexing?
-    ans : to manipulate strings. Each character in a Python string has a corresponding index number.
-
-12. Why do we need to use format specifiers in python?
-    ans : to do string formatting.
-
-13. Why do we need to use while for nested loops in python?
-    ans :   while loop : to execute some code while some condition remains true.
+1.  Datatypes : string, boolean, int, float.
+2.  math module : to perform complex mathematical operations.
+3.  conditional statements : if, else, elif.
+4.  logical operators : and, or, not.
+    and = checks two or more conditions are True
+    or = checks if at least one condition is True
+    not = True if condition is False, and vice versa
+5.  Strings : immutable. String slicing, string method, string indexing.
+6.  Loops : while loop : to execute some code while some condition remains true.
             for loop : to execute a block of code a fixed number of times.
-                       You can iterate over a range, string, sequence, etc.
+            You can iterate over a range, string, sequence, etc.
             nested loop : loop or loops within a loop.
+7. loop controls : break : to terminate the loop or statement
+                    continue : to force execute the next iteration of the loop.
+            `       The code inside the loop following the continue statement will be skipped and the next iteration of the loop will begin.
+                    pass : to skip code.
 
-14. Why do we need to use break continue pass in python?
-    ans :   break : to terminate the loop or statement
-            continue : to force execute the next iteration of the loop.
-            `        The code inside the loop following the continue statement will be skipped and the next iteration of the loop will begin.
-            pass : to skip code.
-
-15. What are the differences between lists, sets, tuples and dictionary in python? advantages and disadvantages.
-    ans :   List: Mutable (modifiable).
-            Tuple: Immutable (non-modifiable).
-            Set: Mutable, but elements inside must be immutable.
-            Dictionary: Mutable; keys are immutable, but values can change.
-            rest : https://www.geeksforgeeks.org/differences-and-applications-of-list-tuple-set-and-dictionary-in-python/
+8. Data structures : lists, sets, tuples and dictionary.
+                    List: Mutable (modifiable).
+                    Tuple: Immutable (non-modifiable).
+                    Set: Mutable, but elements inside must be immutable.
+                    Dictionary: Mutable; keys are immutable, but values can change.
+                    context : https://www.geeksforgeeks.org/differences-and-applications-of-list-tuple-set-and-dictionary-in-python/
+16.
+17.
+18.
+19.
+20.
+21.
 
 
     What is the super function?
