@@ -4,16 +4,17 @@
             Bigger organizations use it widely because of its multiple programming paradigms.
             Python has automatic memory management and dynamic features with a comprehensive and large standard library.
 
-#   variables, typecasting, userinput, format specifiers, modules, random, time modules,
+#   modules, random, time modules,
 
-1.  Datatypes : string, boolean, int, float.
+1.  Basic : variables, typecasting, userinput, datatypes, comment.
+            data types : string, boolean, int, float.
 2.  math module : to perform complex mathematical operations.
 3.  conditional statements : if, else, elif.
 4.  logical operators : and, or, not.
                         and = checks two or more conditions are True
                         or = checks if at least one condition is True
                         not = True if condition is False, and vice versa
-5.  Strings : immutable. String slicing, string method, string indexing.
+5.  Strings : immutable. String slicing, string method, string indexing, format specifier.
 6.  Loops : while loop : to execute some code while some condition remains true.
             for loop : to execute a block of code a fixed number of times.
             You can iterate over a range, string, sequence, etc.
