@@ -23,7 +23,7 @@
                     continue : to force execute the next iteration of the loop.
             `       The code inside the loop following the continue statement will be skipped and the next iteration of the loop will begin.
                     pass : to skip code.
-8.  Data structures : lists, sets, tuples, dictionary, list comprehension, dictionary comprehension.
+***8.  Data structures : lists, sets, tuples, dictionary, list comprehension, dictionary comprehension.
                     List: Mutable (modifiable).
                     Tuple: Immutable (non-modifiable).
                     Set: Mutable, but elements inside must be immutable.
@@ -34,14 +34,14 @@
                         helps with readability
 10. Args and kwargs : *args    = allows you to pass multiple non-key arguments
                       **kwargs = allows you to pass multiple keyword-arguments
-11. Variable scope : where a variable is visible and accessible
-12. Scope resolution : local, enclosed, global, built-in. (LEGB rule followed when interpreting when resolving names in a program)
 13. Exception handling : events detected during execution that interrupt the flow of a program
 14. If-else vs exception handling : if-else statements prevent the error from occurring by checking for the conditions (that may cause an error) in advance.
                                     Whereas try-except waits for an error to occur and handles it afterward.
-15. File : read, write, copy, move, delete. os module.
-16. Object-oriented programming :  functions, return statement, nested function calls, class variables, inheritance,
-                                   multilevel inheritance, multiple inheritance, method overriding, method chaining,
+*** 15. File : read, write, copy, move, delete. os module.
+*** 16. Object-oriented programming :  variable scope, scope resolution, functions, return statement, nested function calls, class variables, inheritance,
+                                   multilevel inheritance, multiple inheritance, method overriding, method chaining, Functions to variables, higher order functions
+                                   Variable scope : where a variable is visible and accessible
+                                   Scope resolution : local, enclosed, global, built-in. (LEGB rule followed when interpreting when resolving names in a program)
                                    super function, abstract classes, abstract methods, objects as arguments, duck typing
                                    super function : gives access to methods of a parent class. Returns a temporary object of the parent class when used.
                                    abstract class : a class which contains one or more abstract methods.
@@ -51,19 +51,21 @@
                                                      kind of like interface implementation in java. opposite of super function when you think about it.
                                    duck typing : concept where the class of an object is less important than the methods/attributes
                                                  class type is not checked if minimum methods/attributes are present.
-17. Walrus operator : assignment expression. Assigns values to variables as part of a larger expression.
-18. Functions to variables : assigns function to a variable. Is reusable.
-19. Higher order function : a function that either:
-                            1. accepts a function as an argument
-                            or
-                            2. returns a function
-                            (In python, functions are also treated as objects)
-20. Lamda : function written in 1 line using lambda keyword
-            accepts any number of arguments, but only has one expression.
-            (think of it as a shortcut)
-            (useful if needed for a short period of time, throw-away)
-            lambda parameters:expression
-21. Data structure modification : map, sort, filter, reduce, zip function, list comprehension, dictionary comprehension.
+                                   Functions to variables : assigns function to a variable. Is reusable.
+                                   Higher order function : a function that either:
+                                                        1. accepts a function as an argument
+                                                        or
+                                                        2. returns a function
+                                                        (In python, functions are also treated as objects)
+
+    Simplify : walrus operator, lamda.
+                Walrus operator : assignment expression. Assigns values to variables as part of a larger expression.
+                Lamda : function written in 1 line using lambda keyword
+                        accepts any number of arguments, but only has one expression.
+                        (think of it as a shortcut)
+                        (useful if needed for a short period of time, throw-away)
+                        lambda parameters:expression
+***21. Data structure modification : map, sort, filter, reduce, zip function, list comprehension, dictionary comprehension.
                                   Map function : applies a function to each item in an iterable (list, tuple, etc.). map(function,iterable).
                                   filter :
                                   sort() method : used with lists

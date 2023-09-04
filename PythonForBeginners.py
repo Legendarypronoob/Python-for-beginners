@@ -43,22 +43,20 @@ class basic:
               str(humidity) + "%.")
 
 
-class Strings:
-    # String slicing
-    def string_slicing(self):
-        pass
+def string_slicing():
+    pass
 
-    # string method
-    def string_method(self):
-        pass
 
-    # string indexing
-    def string_indexing(self):
-        pass
+def string_method():
+    pass
 
-    # format specifier
-    def format_specifier(self):
-        pass
+
+def string_indexing():
+    pass
+
+
+def format_specifier():
+    pass
 
 
 def math_module():
@@ -71,7 +69,11 @@ def random():
     pass
 
 
-def conditional_statements_logical_operators():
+def conditional_statements():
+    pass
+
+
+def logical_operators():
     pass
 
 
@@ -79,83 +81,40 @@ def loops_and_controls():
     pass
 
 
-class data_structures:
-    # tuple
-    def tuple(self):
-        pass
-
-    # set
-    def set(self):
-        pass
-
-    # lists
-    def list(self):
-        pass
-
-    # 2d lists
-    def _2dlist(self):
-        pass
-
-    # dictionary
-    def dictionary(self):
-        pass
+def keyword_arguments():
+    pass
 
 
-class arguments:
-    def keyword_arguments(self):
-        pass
+def args():
+    pass
 
-    def args(self):
-        pass
 
-    def kwargs(self):
-        pass
+def kwargs():
+    pass
 
 
 def exception_handling():
     pass
 
 
-class file:
-    # import os
-    def read(self):
-        pass
-
-    def write(self):
-        pass
-
-    def copy(self):
-        pass
-
-    def move(self):
-        pass
-
-    def delete(self):
-        pass
+def walrus_operator():
+    pass
 
 
-class object_oriented_programming:
-    """ functions, return statement, nested function calls, class variables, inheritance,
-        multilevel inheritance, multiple inheritance, method overriding, method chaining,
-        super function, abstract classes, abstract methods, objects as arguments, duck typing"""
+def lamda():
+    pass
 
-    def functions(self):
-        pass
 
-    def return_statements(self):
-        pass
+def multi_processing():
+    pass
 
-    def nested_function_calls(self):
-        pass
 
-    def class_variables(self):
-        pass
+def multithreading():
+    pass
 
-    def inheritance(self):
-        pass
 
-    def multilevel_inheritance(self):
-        pass
+def daemon_thread():
+    pass
 
 
 if __name__ == "__main__":
