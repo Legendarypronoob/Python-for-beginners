@@ -209,6 +209,63 @@ my_name(middle="Mahdi", last="Hossain", first="Md.")
 # nested functions call
 
 # variable scope
+# ---- LOCAL ----
+
+def func1():
+    x = 1  # local
+    print(x)
+
+
+def func2():
+    x = 2  # local
+    print(x)
+
+
+func1()
+func2()
+
+
+# ---- ENCLOSED ----
+
+def func1():
+    x = 1  # enclosed
+
+    def func2():
+        print(x)
+
+    func2()
+
+
+func1()
+
+
+# ---- GLOBAL ----
+
+def func1():
+    print(x)
+
+
+def func2():
+    print(x)
+
+
+x = 3  # global
+
+func1()
+func2()
+
+# ---- BUILT-IN ----
+
+from math import e
+
+
+def func1():
+    print(e)
+
+
+func1()
+
+
 # local global bl enclosed
 
 # # args
@@ -330,6 +387,19 @@ shutil.copyfile("demo_file_detection.txt", "copy.txt")
 # shutil.copy2()
 
 # move a file
+
+
+source = "C:\\Users\\User\\Desktop\\source.txt"
+destination = "C:\\Users\\User\\Desktop\\destination.txt"
+
+try:
+    if os.path.exists(destination):
+        print("There is already a file there")
+    else:
+        os.replace(source, destination)
+        print(source + " was moved")
+except FileNotFoundError:
+    print(source + " was not found")
 
 # delete a file
 demo_path = "copy.txt"
@@ -617,6 +687,22 @@ class Chess(BlackPieces, WhitePieces):
 
 
 # method overriding
+
+class Animal:
+
+    def eat(self):
+        print("This animal is eating")
+
+
+class Rabbit(Animal):
+
+    def eat(self):
+        print("This rabbit is eating a carrot")
+
+
+rabbit = Rabbit()
+rabbit.eat()
+
 
 # method chaining
 
@@ -1204,7 +1290,6 @@ def counter(num):
 
 
 def main():
-
     print("cpu count:", cpu_count())
 
     a = Process(target=counter, args=(500000000,))
@@ -1222,7 +1307,38 @@ def main():
     print("finished in:", time.perf_counter(), "seconds")
 
 
-#if _name_ == '__main__':
- #   main()
+# if _name_ == '__main__':
+#   main()
 
 # *********************************
+
+"""# run .py file with cmd
+# *****************************
+# save file as .py (Python file)
+# go to command prompt
+# navigate to directory w/ your file: cd C:Users\BroCode\Desktop
+# invoke python interpreter + script: python hello_world.py
+#       pip = package manager for packages and modules from Python Package Index
+#
+#       included for Python versions 3.4+
+#       open command prompt
+#
+#       help:                                          pip
+#       check:                                       pip --version
+#       update:                                     pip install --upgrade pip
+#       installed packages:                pip list
+#       check outdated packages:    pip list --outdated
+#       update a package:                  pip install "package name" --upgrade
+#       install a package:                    pip install "package name"
+(Windows Defender may prevent you from running)
+(make sure pip and pyinstaller are installed/updated)
+
+1. cd to directory that contains your .py file
+2. pyinstaller ...
+  -F   (all in 1 file)
+  -w   (removes terminal window)
+  -i icon.ico  (adds custom icon to .exe)
+  clock.py  (name of your main python file)
+
+3. exe is located in the dist folder
+"""
