@@ -25,4 +25,7 @@
 4.  is python a case-sensitive language?
     ans : yes.
 
-5.
+5.  What are arguments?
+    ans : The terms parameter and argument can be used for the same thing. Information that are passed into a function.
+
+6.
