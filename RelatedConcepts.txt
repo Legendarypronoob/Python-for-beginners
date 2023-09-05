@@ -27,5 +27,9 @@
 
 5.  What are arguments?
     ans : The terms parameter and argument can be used for the same thing. Information that are passed into a function.
+6.  What is the difference between if and elif?
+    ans : Multiple 'if' statements get checked one after another with no regard to the former's results.
+    'Elif' acts as 'else if', so is checked only in the 'else' case - that is only then, if the first 'if' is False.
+    If the first 'if' is True, all 'elif' statements are skipped and not checked anymore.
 
 # The end.
