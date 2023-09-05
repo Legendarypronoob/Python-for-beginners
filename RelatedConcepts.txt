@@ -32,4 +32,17 @@
     'Elif' acts as 'else if', so is checked only in the 'else' case - that is only then, if the first 'if' is False.
     If the first 'if' is True, all 'elif' statements are skipped and not checked anymore.
 
-# The end.
+7.  What is None in python?
+    ans : None is used to define a null value or Null object in Python. It is not the same as an empty string, a False, or a zero.
+    It is a data type of the class NoneType object.
+
+8.  What is the difference between homogenous and non-homogenous data structure in python?
+    ans : Non-homogeneous (Heterogeneous) data structure :- if two or more types of data elements are stored by data structure,
+    then it is called non-homogeneous or heterogeneous data structure. Example - lists. Homogenous Data structures:
+    All the elements in the structure are of the same data type. example:- there are no non-homogenous data structure in python.
+
+9.  Which one is faster among list, tuple, set, dictionary in python?
+    ans : tuple>dictionary>list>set. But in the case of searching for an element in a collection, sets are faster because sets have been implemented using hash tables.
+    tuples are immutable. Dictionary uses hash tables.
+
+#The end.
